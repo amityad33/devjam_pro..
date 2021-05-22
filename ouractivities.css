@@ -1,0 +1,259 @@
+.nav {
+    background-color: antiquewhite;
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    background-color: rgb(165, 70, 70);
+}
+
+.nav li {
+    list-style: none;
+    float: left;
+    margin: 5px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.nav li a:hover {
+    color: chartreuse;
+}
+
+.nav ul {
+    overflow: auto;
+}
+
+.bimg {
+    border: white;
+    border-width: 3px;
+    border-style: solid;
+    margin: 0px;
+    background-color: white;
+    border-radius: 100px;
+    padding: 0px;
+    float: left;
+    height: 120px;
+    width: 15%;
+}
+
+.bimg img {
+    width: 150px;
+    display: block;
+    margin: 0px auto;
+    overflow: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.info {
+    border: white;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    background-color: lightskyblue;
+    overflow: auto;
+    margin: auto;
+    height: 120px;
+    width: 80%;
+}
+
+.mail {
+    /*float: right;*/
+    overflow: auto;
+    border: white;
+    border-width: 2px;
+    border-style: solid;
+    height: 85px;
+    width: 95%;
+    margin: auto;
+}
+
+.mail p {
+    text-align: right;
+}
+
+.info span {
+    float: right;
+}
+
+.info h2 {
+    text-align: center;
+    color: black;
+    font-style: oblique;
+}
+
+.info h1 {
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+
+* {
+    box-sizing: content-box;
+}
+
+
+/*<style>*/
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 25px;
+    font-size: 16px;
+    border: none;
+    height: 15px;
+    width: 120px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 10px 40px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.slideshow img {
+    height: 400px;
+    width: 90%;
+    margin: 0% 5%;
+}
+
+.slideshow h1 {
+    text-align: center;
+}
+
+.library {
+    margin: 5px 10%;
+    background-color: lightgreen;
+    box-shadow: 10px 10px 7px gray;
+}
+
+.library p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.library img {
+    height: 350px;
+    width: 80%;
+    margin: 0px 10%;
+}
+
+.sciencelab {
+    margin: 5px 10%;
+    background-color: lightgreen;
+    box-shadow: 10px 10px 7px gray;
+}
+
+.sciencelab p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.sciencelab img {
+    height: 350px;
+    width: 80%;
+    margin: 0px 10%;
+}
+
+.smartclass p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.smartclass {
+    margin: 5px 10%;
+    background-color: lightgreen;
+    box-shadow: 10px 10px 7px gray;
+}
+
+.smartclass img {
+    height: 350px;
+    width: 80%;
+    margin: 0px 10%;
+}
+
+h2 {
+    color: brown;
+}
+
+.sports p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.sports {
+    margin: 5px 10%;
+    background-color: lightgreen;
+    box-shadow: 10px 10px 7px gray;
+}
+
+.sports img {
+    height: 350px;
+    width: 80%;
+    margin: 0px 10%;
+}
+
+.interschool p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.interschool {
+    margin: 5px 10%;
+    background-color: lightgreen;
+    box-shadow: 10px 10px 7px gray;
+}
+
+.interschool img {
+    height: 350px;
+    width: 80%;
+    margin: 0px 10%;
+}
+
+.flast {
+    background-color: black;
+}
+
+.flast p {
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.flast h2 {
+    color: cornsilk;
+    text-align: center;
+}

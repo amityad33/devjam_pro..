@@ -1,0 +1,100 @@
+@keyframes animation {
+    0% {
+        color: darkblue;
+        text-shadow: 2px 2px deepskyblue;
+    }
+    50% {
+        color: purple;
+        text-shadow: 2px 2px palevioletred;
+    }
+    100% {
+        color: darkblue;
+        text-shadow: 2px 2px deepskyblue;
+    }
+}
+
+.atr {
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 0%;
+}
+
+.wrt {
+    position: relative;
+    margin-top: 5%;
+    position: absolute;
+    margin-left: 1%;
+}
+
+.txt {
+    position: relative;
+    margin-top: 5%;
+    position: absolute;
+    margin-left: 10%;
+    border: yellow 2px solid;
+    border-radius: 1cm;
+}
+
+.txtf {
+    position: relative;
+    margin-top: 5%;
+    position: absolute;
+    margin-left: 10%;
+}
+
+.area {
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 2.3%;
+    height: 2.8cm;
+    width: 18cm;
+    font-size: 4mm;
+}
+
+.btn {
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 20%;
+    height: 8px;
+    width: 20px;
+    border: 2px solid burlywood;
+    border-radius: 2cm;
+    background-color: burlywood;
+    /* animation-name: btn;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;*/
+}
+
+.btn p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: darkblue;
+    background-color: wheat;
+}
+
+.btn a:hover {
+    color: red;
+    background-color: green;
+}
+
+
+/*@keyframes btn {
+    0% {
+        background-color: green;
+    }
+    50% {
+        background-color: red;
+    }
+    100% {
+        background-color: green;
+    }
+
+
+}*/

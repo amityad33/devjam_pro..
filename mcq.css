@@ -1,0 +1,25 @@
+.next {
+    background-color: crimson;
+    color: white;
+    width: 4cm;
+    height: 1cm;
+    font-size: 5mm;
+    border: 4px solid green;
+    border-radius: 3mm;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 30%;
+}
+
+.next:hover {
+    height: 1.15cm;
+    width: 4.15cm;
+}
+
+.res {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 10%;
+    font-size: 2cm;
+    color: blue;
+}
